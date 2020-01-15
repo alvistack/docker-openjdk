@@ -21,7 +21,7 @@ ENV TZ     "UTC"
 
 ENV OPENJDK_RELEASE "13"
 
-ENTRYPOINT [ "dumb-init", "--", "docker-entrypoint.sh" ]
+ENTRYPOINT [ "tini", "-g", "--", "docker-entrypoint.sh" ]
 CMD        [ "jshell" ]
 
 # Hotfix for en_US.utf8 locale

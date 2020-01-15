@@ -29,7 +29,7 @@ Start OpenJDK:
     # Pull latest image
     docker pull alvistack/openjdk
     
-    # Run with built-in web server
+    # Run as detach
     docker run \
         -itd \
         --rm \
