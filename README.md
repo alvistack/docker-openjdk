@@ -11,14 +11,19 @@ Learn more about OpenJDK: <https://openjdk.java.net/>
 
 ## Supported Tags and Respective `Dockerfile` Links
 
-  - [`latest` (master/Dockerfile)](https://github.com/alvistack/docker-openjdk/blob/master/Dockerfile)
-  - [`13` (13/Dockerfile)](https://github.com/alvistack/docker-openjdk/blob/13/Dockerfile)
-  - [`11` (11/Dockerfile)](https://github.com/alvistack/docker-openjdk/blob/11/Dockerfile)
-  - [`8` (8/Dockerfile)](https://github.com/alvistack/docker-openjdk/blob/8/Dockerfile)
+  - [`13`, `latest`](https://github.com/alvistack/docker-openjdk/blob/master/molecule/13/Dockerfile.j2)
+  - [`11`](https://github.com/alvistack/docker-openjdk/blob/master/molecule/11/Dockerfile.j2)
+  - [`8`](https://github.com/alvistack/docker-openjdk/blob/master/molecule/8/Dockerfile.j2)
 
 ## Overview
 
 This Docker container makes it easy to get an instance of OpenJDK up and running.
+
+Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with some minor hack:
+
+  - Minimized `Dockerfile` for meta data definition
+  - Provision by Ansible and Molecule Docker driver in single layer
+  - Handle `ENTRYPOINT` with [tini](https://github.com/krallin/tini)
 
 ### Quick Start
 
