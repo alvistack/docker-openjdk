@@ -44,9 +44,13 @@ Start OpenJDK:
 
 ## Versioning
 
+### `alvistack/openjdk:latest`
+
 The `latest` tag matches the most recent [GitHub Release](https://github.com/alvistack/docker-openjdk/releases) of this repository. Thus using `alvistack/openjdk:latest` or `alvistack/openjdk` will ensure you are running the most up to date stable version of this image.
 
-Other tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-openjdk) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+### `alvistack/openjdk:<version>`
+
+The version tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-openjdk) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
