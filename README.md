@@ -1,6 +1,6 @@
 # Docker Image Packaging for OpenJDK
 
-[![Travis](https://img.shields.io/travis/alvistack/docker-openjdk.svg)](https://travis-ci.org/alvistack/docker-openjdk)
+[![Travis](https://img.shields.io/travis/com/alvistack/docker-openjdk.svg)](https://travis-ci.com/alvistack/docker-openjdk)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/openjdk.svg)](https://hub.docker.com/r/alvistack/openjdk/)
@@ -50,7 +50,7 @@ The `latest` tag matches the most recent [GitHub Release](https://github.com/alv
 
 ### `alvistack/openjdk:<version>`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-openjdk) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-openjdk) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
