@@ -11,7 +11,7 @@ Learn more about OpenJDK: <https://openjdk.java.net/>
 
 ## Supported Tags and Respective `Dockerfile` Links
 
-  - [`13`, `latest`](https://github.com/alvistack/docker-openjdk/blob/master/molecule/13/Dockerfile.j2)
+  - [`14`, `latest`](https://github.com/alvistack/docker-openjdk/blob/master/molecule/14/Dockerfile.j2)
   - [`11`](https://github.com/alvistack/docker-openjdk/blob/master/molecule/11/Dockerfile.j2)
   - [`8`](https://github.com/alvistack/docker-openjdk/blob/master/molecule/8/Dockerfile.j2)
 
