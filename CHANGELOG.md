@@ -1,9 +1,10 @@
 # Docker Image Packaging for OpenJDK
 
-## 13.0.2-XalvistackY - TBC
+## 14.0.1-XalvistackY - TBC
 
 ### Major Changes
 
+  - Replace AdoptOpenJDK 13 with 14 for Ubuntu 20.04
   - Rename `post_tasks.yml` as `side_effect.yml`
   - Upgrade base image to Ubuntu 20.04
 
