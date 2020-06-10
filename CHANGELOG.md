@@ -4,6 +4,12 @@
 
 ### Major Changes
 
+## 14.0.1-4alvistack3 - 2020-06-10
+
+### Major Changes
+
+  - Revamp `create`, `side_effect`, `verify` and `destroy` logic
+  - Replace `tini` with `catatonit`
   - Replace AdoptOpenJDK 13 with 14 for Ubuntu 20.04
   - Rename `post_tasks.yml` as `side_effect.yml`
   - Upgrade base image to Ubuntu 20.04

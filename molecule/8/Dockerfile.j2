@@ -42,5 +42,5 @@ RUN set -ex \
 
 ENV OPENJDK_RELEASE "{{ openjdk_release }}"
 
-ENTRYPOINT [ "tini", "-g", "--", "docker-entrypoint.sh" ]
+ENTRYPOINT [ "catatonit", "-g", "--", "docker-entrypoint.sh" ]
 CMD        [ "{{ openjdk_command }}" ]
