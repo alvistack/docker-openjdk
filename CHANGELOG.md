@@ -1,10 +1,11 @@
 # Docker Image Packaging for OpenJDK
 
-## 14.0.2-XalvistackY - TBC
+## 15.0.0-XalvistackY - TBC
 
 ### Major Changes
 
   - Refine Molecule matrix
+  - Replace AdoptOpenJDK 14 with 15
 
 ## 14.0.2-4alvistack2 - 2020-08-26
 
