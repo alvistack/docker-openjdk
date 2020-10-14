@@ -4,8 +4,8 @@
 
 ### Major Changes
 
-  - Refine Molecule matrix
   - Replace AdoptOpenJDK 14 with 15
+  - Refine Molecule matrix
 
 ## 14.0.2-4alvistack2 - 2020-08-26
 
