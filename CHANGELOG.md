@@ -1,6 +1,6 @@
 # Docker Image Packaging for OpenJDK
 
-## 15.0.0-XalvistackY - TBC
+## 15.0.1-XalvistackY - TBC
 
 ### Major Changes
 
