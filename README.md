@@ -11,9 +11,9 @@ Learn more about OpenJDK: <https://openjdk.java.net/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`15`, `latest`](https://github.com/alvistack/docker-openjdk/blob/master/packer/15/packer.json)
-  - [`11`](https://github.com/alvistack/docker-openjdk/blob/master/packer/11/packer.json)
-  - [`8`](https://github.com/alvistack/docker-openjdk/blob/master/packer/8/packer.json)
+  - [`15`, `latest`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-15/packer.json)
+  - [`11`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-11/packer.json)
+  - [`8`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-8/packer.json)
 
 ## Overview
 
