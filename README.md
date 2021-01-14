@@ -1,9 +1,9 @@
 # Docker Image Packaging for OpenJDK
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-openjdk/master)](https://gitlab.com/alvistack/docker-openjdk/-/pipelines)
+[![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-openjdk/master)](https://gitlab.com/alvistack/docker-openjdk/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/openjdk.svg)](https://hub.docker.com/r/alvistack/openjdk/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/openjdk-15.svg)](https://hub.docker.com/r/alvistack/openjdk-15)
 
 OpenJDK (Open Java Development Kit) is a free and open source implementation of the Java Platform, Standard Edition (Java SE).
 
@@ -11,9 +11,12 @@ Learn more about OpenJDK: <https://openjdk.java.net/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`15`, `latest`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-15/packer.json)
-  - [`11`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-11/packer.json)
-  - [`8`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-8/packer.json)
+  - [`alvistack/openjdk-15`](https://hub.docker.com/r/alvistack/openjdk-15)
+      - [`packer/docker-15/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-15/packer.json)
+  - [`alvistack/openjdk-11`](https://hub.docker.com/r/alvistack/openjdk-11)
+      - [`packer/docker-11/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-11/packer.json)
+  - [`alvistack/openjdk-8`](https://hub.docker.com/r/alvistack/openjdk-8)
+      - [`packer/docker-8/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-8/packer.json)
 
 ## Overview
 
@@ -43,13 +46,13 @@ Start OpenJDK:
 
 ## Versioning
 
-### `alvistack/openjdk:latest`
+### `YYYYMMDD.Y.Z`
 
-The `latest` tag matches the most recent [GitHub Release](https://github.com/alvistack/docker-openjdk/releases) of this repository. Thus using `alvistack/openjdk:latest` or `alvistack/openjdk` will ensure you are running the most up to date stable version of this image.
+Release tags could be find from [GitHub Release](https://github.com/alvistack/docker-openjdk/releases) of this repository. Thus using these tags will ensure you are running the most up to date stable version of this image.
 
-### `alvistack/openjdk:<version>`
+### `YYYYMMDD.0.0`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-openjdk) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+Version tags ended with `.0.0` are rolling release rebuild by [GitLab pipeline](https://gitlab.com/alvistack/docker-openjdk/-/pipelines) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
