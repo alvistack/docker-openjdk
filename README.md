@@ -3,7 +3,7 @@
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-openjdk/master)](https://gitlab.com/alvistack/docker-openjdk/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/openjdk-15.svg)](https://hub.docker.com/r/alvistack/openjdk-15)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/openjdk-16.svg)](https://hub.docker.com/r/alvistack/openjdk-16)
 
 OpenJDK (Open Java Development Kit) is a free and open source implementation of the Java Platform, Standard Edition (Java SE).
 
@@ -11,8 +11,8 @@ Learn more about OpenJDK: <https://openjdk.java.net/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`alvistack/openjdk-15`](https://hub.docker.com/r/alvistack/openjdk-15)
-      - [`packer/docker-15/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-15/packer.json)
+  - [`alvistack/openjdk-16`](https://hub.docker.com/r/alvistack/openjdk-16)
+      - [`packer/docker-16/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-16/packer.json)
   - [`alvistack/openjdk-11`](https://hub.docker.com/r/alvistack/openjdk-11)
       - [`packer/docker-11/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-11/packer.json)
   - [`alvistack/openjdk-8`](https://hub.docker.com/r/alvistack/openjdk-8)
