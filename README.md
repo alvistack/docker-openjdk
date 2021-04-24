@@ -34,14 +34,14 @@ For the `VOLUME` directory that is used to store the repository data (amongst ot
 Start OpenJDK:
 
     # Pull latest image
-    docker pull alvistack/openjdk
+    docker pull alvistack/openjdk-16
     
     # Run as detach
     docker run \
         -itd \
         --rm \
         --name openjdk \
-        alvistack/openjdk \
+        alvistack/openjdk-16 \
         java -version
 
 ## Versioning
