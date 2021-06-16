@@ -4,9 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/openjdk-16.svg)](https://hub.docker.com/r/alvistack/openjdk-16)
-
 OpenJDK (Open Java Development Kit) is a free and open source implementation of the Java Platform, Standard Edition (Java SE).
-
 Learn more about OpenJDK: <https://openjdk.java.net/>
 
 ## Supported Tags and Respective Packer Template Links
@@ -21,7 +19,6 @@ Learn more about OpenJDK: <https://openjdk.java.net/>
 ## Overview
 
 This Docker container makes it easy to get an instance of OpenJDK up and running.
-
 Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with some minor hack:
 
   - Packaging by Packer Docker builder and Ansible provisioner in single layer
@@ -30,19 +27,16 @@ Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with s
 ### Quick Start
 
 For the `VOLUME` directory that is used to store the repository data (amongst other things) we recommend mounting a host directory as a [data volume](https://docs.docker.com/engine/tutorials/dockervolumes/#/data-volumes), or via a named volume if using a docker version \>= 1.9.
-
 Start OpenJDK:
-
-    # Pull latest image
-    docker pull alvistack/openjdk-16
-    
-    # Run as detach
-    docker run \
-        -itd \
-        --rm \
-        --name openjdk \
-        alvistack/openjdk-16 \
-        java -version
+\# Pull latest image
+docker pull alvistack/openjdk-16
+\# Run as detach
+docker run   
+\-itd   
+\--rm   
+\--name openjdk   
+alvistack/openjdk-16   
+java -version
 
 ## Versioning
 
