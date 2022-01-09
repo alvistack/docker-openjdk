@@ -5,7 +5,7 @@
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-openjdk/master)](https://gitlab.com/alvistack/docker-openjdk/-/pipelines)
 [![GitHub tag](https://img.shields.io/github/tag/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/tags)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-openjdk.svg)](https://github.com/alvistack/docker-openjdk/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/openjdk-16.svg)](https://hub.docker.com/r/alvistack/openjdk-16)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/openjdk-17.svg)](https://hub.docker.com/r/alvistack/openjdk-17)
 
 OpenJDK (Open Java Development Kit) is a free and open source implementation of the Java Platform, Standard Edition (Java SE).
 
@@ -13,8 +13,8 @@ Learn more about OpenJDK: <https://openjdk.java.net/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`alvistack/openjdk-16`](https://hub.docker.com/r/alvistack/openjdk-16)
-      - [`packer/docker-16/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-16/packer.json)
+  - [`alvistack/openjdk-17`](https://hub.docker.com/r/alvistack/openjdk-17)
+      - [`packer/docker-17/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-17/packer.json)
   - [`alvistack/openjdk-11`](https://hub.docker.com/r/alvistack/openjdk-11)
       - [`packer/docker-11/packer.json`](https://github.com/alvistack/docker-openjdk/blob/master/packer/docker-11/packer.json)
   - [`alvistack/openjdk-8`](https://hub.docker.com/r/alvistack/openjdk-8)
@@ -36,14 +36,14 @@ For the `VOLUME` directory that is used to store the repository data (amongst ot
 Start OpenJDK:
 
     # Pull latest image
-    docker pull alvistack/openjdk-16
+    docker pull alvistack/openjdk-17
     
     # Run as detach
     docker run \
         -itd \
         --rm \
         --name openjdk \
-        alvistack/openjdk-16 \
+        alvistack/openjdk-17 \
         java -version
 
 ## Versioning
