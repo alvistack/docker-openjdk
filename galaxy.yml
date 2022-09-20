@@ -15,7 +15,7 @@
 # limitations under the License.
 
 namespace: alvistack
-name: docker-openjdk
+name: openjdk
 description: Docker Image Packaging for OpenJDK
 
 version: 0.0.0
